@@ -10,7 +10,7 @@ find_key_dict = {
     "accesskey": r"access.*?key.*?:",
     "tokenkey": r"token.*?key.*?:",
     "secret": r"secret.*?=.*?\".*?\"",
-    "workwechat": r".*?_corpid.*?=",
+    "workwechat": r".*?corpid.*?=",
     "mobile": r"['\"](1(3([0-35-9]\d|4[1-8])|4[14-9]\d|5([\d]\d|7[1-79])|66\d|7[2-35-8]\d|8\d{2}|9[89]\d)\d{7})['\"]",
     "mail": r"['\"][a-zA-Z0-9\._\-]*@[a-zA-Z0-9\._\-]{1,63}\.((?!js|css|jpg|jpeg|png|ico)[a-zA-Z]{2,})['\"]",
     "ip": r"['\"]\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}['\"]",
