@@ -3,7 +3,7 @@ import sys
 import re
 
 find_key_dict = {
-    "url": r"\".*?[^http]/.*?\\?.*?=\"",
+    "url": r"\"http.*?\:.*?\"",
     "apikey": r"api.*?key.*?=",
     "username": r"user.*?=\".*?\"",
     "password": r"passw.*?=\".*?\"",
